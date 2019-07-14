@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS example;
+USE example;
+DROP TABLE IF EXISTS Users;
+CREATE TABLE Users(
+	id INT SERIAL,
+	name VARCHAR(255)NOT NULL COMMENT 'Имя пользователя'
+	);
